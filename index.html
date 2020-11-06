@@ -29,161 +29,153 @@
 </head>
 
 <body>
+    <div class="container-xl">
+        <nav class="navbar navbar-expand-md navbar-dark">
+            <a class="navbar-brand" href="index.html">
+                <img src="./images/Logo_250px.png" alt="Imagem do logo da empresa">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-    <nav class="navbar navbar-expand-md navbar-dark">
-        <a class="navbar-brand" href="index.html">
-            <img src="./images/Logo_250px.png" alt="Imagem do logo da empresa">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">
+                            <img src="./icons/house-fill.svg">
+                            <br>Home
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">
+                            <img src="./icons/grid-3x3-gap-fill.svg">
+                            <br>Produtos
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">
+                            <img src="./icons/star-fill.svg">
+                            <br>Sobre
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">
+                            <img src="./icons/tools.svg">
+                            <br>Assistência
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">
+                            <img src="./icons/envelope-fill.svg">
+                            <br>Contatos
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="index.html">
-                        <img src="./icons/house-fill.svg">
-                        <br>Home
-                        <span class="sr-only">(current)</span>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="produtos.html">
-                        <img src="./icons/grid-3x3-gap-fill.svg">
-                        <br>Produtos
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="sobre.html">
-                        <img src="./icons/star-fill.svg">
-                        <br>Sobre
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="assistencia.html">
-                        <img src="./icons/tools.svg">
-                        <br>Assistência
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contatos.html">
-                        <img src="./icons/envelope-fill.svg">
-                        <br>Contatos
-                    </a>
-                </li>
-            </ul>
+        <div id="carousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./images/jumbotron_1200.jpg" class="d-block w-100 h-50">
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/jumbotron_992.jpg" class="d-block w-100 ">
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/jumbotron_768.jpg" class="d-block w-100">
+                </div>
+            </div>
         </div>
-    </nav>
 
-    <div id="carousel" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="./images/jumbotron_1200.jpg" class="d-block w-100">
+        <div class="row">
+
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="./images/produto-tile.jpg" class="card-img-top" alt="...">
+                    </div>
+                    <a href="produtos.html">
+                        <h5 class="card-footer text-center bg-light">Produtos</h5>
+                    </a>
+                </div>
             </div>
-            <div class="carousel-item">
-                <img src="./images/jumbotron_992.jpg" class="d-block w-100 ">
+
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="./images/contato-tile.jpg" class="card-img-top" alt="...">
+                    </div>
+                    <a href="https://www.google.com.br/maps/place/R.+Jos%C3%A9+Pinto+Vilela,+474+-+Oz%C3%B3rio+Machado,+Santa+Rita+do+Sapuca%C3%AD+-+MG,+37540-000/@-22.2469724,-45.7109038,17z/data=!4m5!3m4!1s0x94cba25379e7e55b:0xbd8d2a0eda1e609c!8m2!3d-22.2463221!4d-45.7088617?hl=en"
+                        target="_blank">
+                        <h5 class=" card-footer text-center bg-light">Mapa</h5>
+                    </a>
+                </div>
             </div>
-            <div class="carousel-item">
-                <img src="./images/jumbotron_768.jpg" class="d-block w-100">
+
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="./images/contato-tile.jpg" class="card-img-top" alt="...">
+                    </div>
+                    <a href="produtos.html">
+                        <h5 class="card-footer text-center bg-light">Contatos</h5>
+                    </a>
+                </div>
             </div>
+
         </div>
+
+        <footer class="panel-footer">
+            <div class="row mx-auto my-auto">
+                <section class="col-sm-3" id="telefone">
+                    <span>Contatos:</span><br>
+                    (35) 3471-2123<br>
+                    (35) 3471-4244 <br>
+                    <a href="https://wa.me/5535988054435" target="_blank"><img src="images/whatsapp-logo.png"
+                            id="whatsApplogo"> Fale conosco no WhatsApp</a><br>
+                    eletro@eletroteste.com.br <br>
+                    <div class="social-media">
+                        <a href="https://www.facebook.com/eletrotestebrasil" target="_blank"><img
+                                src="images/socialmedia-facebook.png" id="facelogo"></a>
+                        <a href="https://www.instagram.com/eletroteste/" target="_blank"><img
+                                src="images/socialmedia-instagram.png" id="instagramlogo"></a>
+                        <a href="https://www.linkedin.com/company/eletrotestebrasil" target="_blank"><img
+                                src="images/socialmedia-linkedin.png" id="linkedinlogo"></a>
+                    </div>
+                    <hr class="d-block d-sm-none">
+                </section>
+                <section class="col-sm-3" id="pagamento">
+                    <span>Aceitamos:</span><br>
+                    Todos cartões de crédito<br>
+                    <a href="https://www.bb.com.br/pbb/pagina-inicial/empresas/produtos-e-servicos/credito/financiar-um-investimento/proger-urbano-empresarial#/"
+                        target="_blank">Financiamento
+                        PROGER</a><br>
+                    <a href="https://www.cartaobndes.gov.br/cartaobndes/" target="_blank">FINAME e Cartão BNDES</a><br>
+                    <a href="https://www.cartaobndes.gov.br/cartaobndes/" target="_blank"><img
+                            src="images/cartao-bndes.png" id="cartaobndes_logo"></a>
+                    <hr class="d-block d-sm-none">
+                </section>
+                <section class="col-sm-3" id="endereco">
+                    <span>Endereço:</span><br>
+                    Rua José Pinto Vilela, 474 - Centro<br>
+                    Santa Rita do Sapucaí - MG <br> 37540-000 <br>
+                    <hr class="d-block d-sm-none">
+                </section>
+                <section class="col-sm-3" id="horas">
+                    <span>Horário de Funcionamento:</span><br>
+                    Segunda a Quinta: <br>
+                    07:00h às 12:00h - 13:25h às 17:25h<br>
+                    Sexta-feira: <br>
+                    07:00h às 12:00h - 13:25h às 16:25h<br>
+                    <hr class="d-block d-sm-none">
+                </section>
+            </div><!-- End of row -->
+            <div class="text-center mb-2">&copy;Copyright Eletroteste Ind. e Com. LTDA</div>
+        </footer>
     </div>
-
-    <div class="row">
-
-        <div class="col-md-4 col-sm-6 col-xs-12">
-            <div class="card">
-                <div class="card-body">
-                    <img src="./images/produto-tile.jpg" class="card-img-top" alt="...">
-                </div>
-                <a href="produtos.html">
-                    <h5 class="card-footer text-center bg-light">Produtos</h5>
-                </a>
-            </div>
-        </div>
-
-        <div class="col-md-4 col-sm-6 col-xs-12">
-            <div class="card">
-                <div class="card-body">
-                    <img src="./images/contato-tile.jpg" class="card-img-top" alt="...">
-                </div>
-                <a href="https://www.google.com.br/maps/place/R.+Jos%C3%A9+Pinto+Vilela,+474+-+Oz%C3%B3rio+Machado,+Santa+Rita+do+Sapuca%C3%AD+-+MG,+37540-000/@-22.2469724,-45.7109038,17z/data=!4m5!3m4!1s0x94cba25379e7e55b:0xbd8d2a0eda1e609c!8m2!3d-22.2463221!4d-45.7088617?hl=en"
-                    target="_blank">
-                    <h5 class=" card-footer text-center bg-light">Mapa</h5>
-                </a>
-            </div>
-        </div>
-
-        <div class="col-md-4 col-sm-6 col-xs-12">
-            <div class="card">
-                <div class="card-body">
-                    <img src="./images/contato-tile.jpg" class="card-img-top" alt="...">
-                </div>
-                <a href="produtos.html">
-                    <h5 class="card-footer text-center bg-light">Contatos</h5>
-                </a>
-            </div>
-        </div>
-
-    </div>
-
-    </div>
-
-    <footer class="panel-footer">
-        <div class="row mx-auto">
-
-            <section class="col-sm-3" id="telefone">
-                <span>Contatos:</span><br>
-                (35) 3471-2123<br>
-                (35) 3471-4244 <br>
-                <a href="https://wa.me/5535988054435" target="_blank"><img src="images/whatsapp-logo.png"
-                        id="whatsApplogo"> Fale conosco no WhatsApp</a><br>
-                eletro@eletroteste.com.br <br>
-                <div class="social-media">
-                    <a href="https://www.facebook.com/eletrotestebrasil" target="_blank"><img
-                            src="images/socialmedia-facebook.png" id="facelogo"></a>
-                    <a href="https://www.instagram.com/eletroteste/" target="_blank"><img
-                            src="images/socialmedia-instagram.png" id="instagramlogo"></a>
-                    <a href="https://www.linkedin.com/company/eletrotestebrasil" target="_blank"><img
-                            src="images/socialmedia-linkedin.png" id="linkedinlogo"></a>
-                </div>
-                <hr class="d-block d-sm-none">
-            </section>
-
-            <section class="col-sm-3" id="pagamento">
-                <span>Aceitamos:</span><br>
-                Todos cartões de crédito<br>
-                <a href="https://www.bb.com.br/pbb/pagina-inicial/empresas/produtos-e-servicos/credito/financiar-um-investimento/proger-urbano-empresarial#/"
-                    target="_blank">Financiamento
-                    PROGER</a><br>
-                <a href="https://www.cartaobndes.gov.br/cartaobndes/" target="_blank">FINAME e Cartão BNDES</a><br>
-                <a href="https://www.cartaobndes.gov.br/cartaobndes/" target="_blank"><img src="images/cartao-bndes.png"
-                        id="cartaobndes_logo"></a>
-                <hr class="d-block d-sm-none">
-            </section>
-
-            <section class="col-sm-3" id="endereco">
-                <span>Endereço:</span><br>
-                Rua José Pinto Vilela, 474 - Centro<br>
-                Santa Rita do Sapucaí - MG <br> 37540-000 <br>
-                <hr class="d-block d-sm-none">
-            </section>
-
-            <section class="col-sm-3" id="horas">
-                <span>Horário de Funcionamento:</span><br>
-                Segunda a Quinta: <br>
-                07:00h às 12:00h - 13:25h às 17:25h<br>
-                Sexta-feira: <br>
-                07:00h às 12:00h - 13:25h às 16:25h<br>
-                <hr class="d-block d-sm-none">
-            </section>
-
-        </div><!-- End of row -->
-
-        <div class="text-center">&copy;Copyright Eletroteste Ind. e Com. LTDA</div>
-
-    </footer>
 
 
     <!-- Optional JavaScript -->
