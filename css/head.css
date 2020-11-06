@@ -1,15 +1,12 @@
 .navbar {
     background-color: #495678;
 }
-
 a.nav-link {
     text-align: center;
 }
-
 .nav-item.active {
   	background-color: #3C648E;
 }
-
 .nav-item>a:hover {
     background-color: #2f6eb1;
 }
