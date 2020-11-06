@@ -3,3 +3,17 @@ body {
   background-color: #E7E7E7;
   font-family: 'Oxygen', sans-serif;
 }
+#logo-img {
+  background: url('../images/Logo_250px.png') no-repeat;
+  width: 250px;
+  height: 45px;
+}
+
+/********** Para dispositivos pequenos **********/
+@media (max-width: 390px) {
+  #logo-img {
+    background: url('../images/Logo_200px.png') no-repeat;
+    width: 200px;
+    height: 45px;
+  }
+}
