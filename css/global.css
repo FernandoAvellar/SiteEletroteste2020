@@ -8,7 +8,6 @@ body {
   width: 250px;
   height: 45px;
 }
-
 /********** Para dispositivos pequenos **********/
 @media (max-width: 390px) {
   #logo-img {
