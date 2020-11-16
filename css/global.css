@@ -2,6 +2,7 @@ body {
   font-size: 16px;
   background-color: #E7E7E7;
   font-family: 'Oxygen', sans-serif;
+  padding-top: 82px; /*** Para garantir que o conteúdo não se esconda atrás do  HEADER que é fixed-top ***/
 }
 #logo-img {
   background: url('../images/Logo_250px.png') no-repeat;
